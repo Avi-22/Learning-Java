@@ -1,6 +1,5 @@
 public class Assignment_2 {
     public static void main(String[] args) throws Exception {
-        public static void main(String[] args) {
             String H = "H";
             short val = 3110;
             String W = "W0r1d";
