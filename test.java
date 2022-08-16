@@ -6,6 +6,7 @@ public class test {
 
         boolean ascend = (a<b) && (b<c);
         boolean descnd = (c>b) && (b>a);
-        System.out.println(ascend || descnd);
+        System.out.println(ascend || descnd); 
     }
+
 }
