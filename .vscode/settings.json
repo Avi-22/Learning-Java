@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
-        "First_Lesson/Variables"
+        "First_Lesson/Variables",
+        "First_Lesson/Expressions"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
