@@ -1,4 +1,4 @@
-public class Assignment_12 {
+public class Expressions_1 {
   public static void main(String[] args) throws Exception {
     byte integer = 50;
     System.out.println(integer%10);
