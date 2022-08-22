@@ -42,18 +42,21 @@ public class test {
   }
 
   public static int check_viablity(int max, String group, String choice, String invalid, Scanner myObj){
-    int input;
-    try {
-      input = myObj.nextInt();
-    } catch (Exception e) {
-      System.out.println("Error");
-    }
-
-    while (input < 0 || input > max) {
+    int input = -1;
+    do {
+      // String data = myObj.nextLine(); 
+      myObj.nextLine();
+      if(myObj.hasNextInt()){
+        input = myObj.nextInt();      
+      }
+      else{
+        System.out.println("Error");      
+      }
       System.out.println(invalid);
       System.out.println(group);
       System.out.println(choice); 
+    
+    } while (input < 0 || input > max );
     return input;
-  }
   }
 }
