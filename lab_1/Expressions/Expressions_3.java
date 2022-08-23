@@ -1,3 +1,4 @@
+package lab_1.Expressions;
 public class Expressions_3 {
     public static void main(String[] args) throws Exception {
         double r = 2;

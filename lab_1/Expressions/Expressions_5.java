@@ -1,3 +1,4 @@
+package lab_1.Expressions;
 public class Expressions_5 {
     public static void main(String[] args) throws Exception {
        double second_num, sub_2;

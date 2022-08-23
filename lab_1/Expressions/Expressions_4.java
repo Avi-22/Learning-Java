@@ -1,3 +1,4 @@
+package lab_1.Expressions;
 public class Expressions_4 {
     public static void main(String[] args) throws Exception {
         int num =2468;

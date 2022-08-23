@@ -1,3 +1,4 @@
+package lab_1.Expressions;
 public class Expressions_2 {
     public static void main(String[] args) throws Exception {
         int firs_num = 87;

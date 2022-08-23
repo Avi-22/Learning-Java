@@ -1,3 +1,4 @@
+package lab_1.Variables;
 public class Assignment_1 {
     public static void main(String[] args) throws Exception {
         int a = 1 , b = 2 ;

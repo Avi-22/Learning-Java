@@ -1,11 +1,5 @@
-import java.util.Scanner;
-
-public class test_2 {
-    /**
-     * @param args
-     */
+public class Assignmment_23_2 {
     public static void main(String[] args) {
-
         int first_num, second_num;
         boolean are_equal;
         String operatiion = args[1];
@@ -28,5 +22,10 @@ public class test_2 {
         if (are_equal) {
             System.out.println(first_num / second_num);
         }
+        are_equal = operatiion.equals("**");
+        if (are_equal) {
+            System.out.println(first_num / second_num);
+        }
+
     }
 }

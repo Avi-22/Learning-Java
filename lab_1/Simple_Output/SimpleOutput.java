@@ -1,3 +1,4 @@
+package lab_1.Simple_Output;
 public class SimpleOutput {
     /*
     Assignment 1
