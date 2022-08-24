@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Assignmment_24_6",
+            "request": "launch",
+            "mainClass": "Assignmment_24_6",
+            "projectName": "Learning-Java_c79e5d0c"
+        },
+        {
+            "type": "java",
+            "name": "Launch test_2",
+            "request": "launch",
+            "mainClass": "test_2",
+            "projectName": "Learning-Java_c79e5d0c"
+        },
+        {
+            "type": "java",
             "name": "Launch Assignment_23_1",
             "request": "launch",
             "mainClass": "Assignment_23_1",
