@@ -1,6 +1,4 @@
-import java.util.InputMismatchException;
 import java.util.Scanner;
-import javax.xml.namespace.QName;
 
 public class test {
   /**

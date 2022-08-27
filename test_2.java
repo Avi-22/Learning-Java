@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class test_2 {
     /**
      * @param args

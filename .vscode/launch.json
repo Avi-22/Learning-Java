@@ -6,6 +6,26 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Assignment_31_3",
+            "request": "launch",
+            "mainClass": "Assignment_31_3",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment_31_2",
+            "request": "launch",
+            "mainClass": "Assignment_31_2"
+        },
+        {
+            "type": "java",
+            "name": "Launch assignment_31_1",
+            "request": "launch",
+            "mainClass": "lab_3.assignment_31_1",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
             "name": "Launch Assignmment_24_2",
             "request": "launch",
             "mainClass": "Assignmment_24_2",
