@@ -1,6 +1,6 @@
 public class Assignmment_23_2 {
     public static void main(String[] args) {
-        int first_num, second_num;
+        double first_num, second_num;
         boolean are_equal;
         String operatiion = args[1];
         first_num = Integer.parseInt(args[0]);
@@ -24,7 +24,7 @@ public class Assignmment_23_2 {
         }
         are_equal = operatiion.equals("**");
         if (are_equal) {
-            System.out.println(first_num / second_num);
+            System.out.println(Math.pow(first_num, second_num));
         }
 
     }
