@@ -4,7 +4,174 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
+        {
+            "type": "java",
+            "name": "Launch calculator",
+            "request": "launch",
+            "mainClass": "calculator",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment_43_5",
+            "request": "launch",
+            "mainClass": "Assignment_43_5",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment_43_4",
+            "request": "launch",
+            "mainClass": "Assignment_43_4",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment_43_3",
+            "request": "launch",
+            "mainClass": "Assignment_43_3",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment_43_2",
+            "request": "launch",
+            "mainClass": "Assignment_43_2",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch a",
+            "request": "launch",
+            "mainClass": "a",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment_43_1",
+            "request": "launch",
+            "mainClass": "Assignment_43_1",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment_42_3",
+            "request": "launch",
+            "mainClass": "Assignment_42_3",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment_42_2",
+            "request": "launch",
+            "mainClass": "Assignment_42_2",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment_42_1",
+            "request": "launch",
+            "mainClass": "Assignment_42_1",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment_41_3",
+            "request": "launch",
+            "mainClass": "Assignment_41_3",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment_41_2",
+            "request": "launch",
+            "mainClass": "Assignment_41_2",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment_41_1",
+            "request": "launch",
+            "mainClass": "Assignment_41_1",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment_33_4",
+            "request": "launch",
+            "mainClass": "Assignment_33_4",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment_32_4",
+            "request": "launch",
+            "mainClass": "Assignment_32_4",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment_31_6",
+            "request": "launch",
+            "mainClass": "Assignment_31_6",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment_33_3",
+            "request": "launch",
+            "mainClass": "Assignment_33_3",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment_33_2",
+            "request": "launch",
+            "mainClass": "Assignment_33_2",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment_33_1",
+            "request": "launch",
+            "mainClass": "Assignment_33_1",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment_32_3",
+            "request": "launch",
+            "mainClass": "Assignment_32_3",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment_32_2",
+            "request": "launch",
+            "mainClass": "Assignment_32_2",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment_32_1",
+            "request": "launch",
+            "mainClass": "Assignment_32_1",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment_31_5",
+            "request": "launch",
+            "mainClass": "Assignment_31_5",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment_31_4",
+            "request": "launch",
+            "mainClass": "Assignment_31_4",
+            "projectName": "Learning-Java_b9d3058f"
+        },
         {
             "type": "java",
             "name": "Launch Assignment_31_3",
