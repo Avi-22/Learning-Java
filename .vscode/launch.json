@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Assignment_53_3",
+            "request": "launch",
+            "mainClass": "Assignment_53_3",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment_53_2",
+            "request": "launch",
+            "mainClass": "Assignment_53_2",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment_53_1",
+            "request": "launch",
+            "mainClass": "Assignment_53_1",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment_52_4",
+            "request": "launch",
+            "mainClass": "Assignment_52_4",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment_52_3",
+            "request": "launch",
+            "mainClass": "Assignment_52_3",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment_52_2",
+            "request": "launch",
+            "mainClass": "Assignment_52_2",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment_52_1",
+            "request": "launch",
+            "mainClass": "Assignment_52_1",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
             "name": "Launch calculator",
             "request": "launch",
             "mainClass": "calculator",
