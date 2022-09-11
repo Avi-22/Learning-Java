@@ -9,6 +9,13 @@
             "name": "Launch Assignment_53_3",
             "request": "launch",
             "mainClass": "Assignment_53_3",
+            "projectName": "Learning-Java_c79e5d0c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Assignment_53_3",
+            "request": "launch",
+            "mainClass": "Assignment_53_3",
             "projectName": "Learning-Java_b9d3058f"
         },
         {
