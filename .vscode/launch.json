@@ -1,0 +1,203 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Editor3",
+            "request": "launch",
+            "mainClass": "Editor3",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Editor2",
+            "request": "launch",
+            "mainClass": "Editor2",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Editor1",
+            "request": "launch",
+            "mainClass": "Editor1",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Instush",
+            "request": "launch",
+            "mainClass": "Instush",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ColorDemo",
+            "request": "launch",
+            "mainClass": "ColorDemo",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch StdShowDemo",
+            "request": "launch",
+            "mainClass": "StdShowDemo",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Scrabble",
+            "request": "launch",
+            "mainClass": "Scrabble",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyString",
+            "request": "launch",
+            "mainClass": "MyString",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch SetOps",
+            "request": "launch",
+            "mainClass": "SetOps",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayOps",
+            "request": "launch",
+            "mainClass": "ArrayOps",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch CodeOps",
+            "request": "launch",
+            "mainClass": "CodeOps",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch teat",
+            "request": "launch",
+            "mainClass": "teat",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimeOps",
+            "request": "launch",
+            "mainClass": "PrimeOps",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Algebra",
+            "request": "launch",
+            "mainClass": "Algebra",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Anagram",
+            "request": "launch",
+            "mainClass": "Anagram",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ascend",
+            "request": "launch",
+            "mainClass": "Ascend",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bill3",
+            "request": "launch",
+            "mainClass": "Bill3",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch CalcPi",
+            "request": "launch",
+            "mainClass": "CalcPi",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Cheers",
+            "request": "launch",
+            "mainClass": "Cheers",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Collatz",
+            "request": "launch",
+            "mainClass": "Collatz",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch FVCalc",
+            "request": "launch",
+            "mainClass": "FVCalc",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumWords",
+            "request": "launch",
+            "mainClass": "NumWords",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringOps",
+            "request": "launch",
+            "mainClass": "StringOps",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestRandom",
+            "request": "launch",
+            "mainClass": "TestRandom",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch TimeCalc",
+            "request": "launch",
+            "mainClass": "TimeCalc",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch TimeFormat",
+            "request": "launch",
+            "mainClass": "TimeFormat",
+            "projectName": "Learning-Java_b9d3058f"
+        }
+    ]
+}
