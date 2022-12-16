@@ -6,11 +6,7 @@ import java.awt.Color;
 public class Instush {
 
 	public static void main(String[] args) {
-		Color n[][] = read("HW 5\\images\\tinypic.ppm");
-		println(n);
-		System.out.println();
-		Color x[][] = scaled(n, 3, 5);
-		println(x);
+		
 
 	}
 
@@ -205,7 +201,7 @@ public class Instush {
 	 */
 	public static void morph(Color[][] source, Color[][] target, int n) {
 		for (int i = 0; i <= n; i++) {
-			int alpha = (n-i)/n;
+			double alpha = (double)(n-i)/n;
 			show((blend(source, target, alpha)));
 		}
 	}

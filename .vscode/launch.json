@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Editor4",
+            "request": "launch",
+            "mainClass": "Editor4",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
             "name": "Launch Editor3",
             "request": "launch",
             "mainClass": "Editor3",

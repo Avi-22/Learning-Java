@@ -21,9 +21,9 @@ public class Editor3 {
 		if (source.length != target.length || source[0].length != target[0].length) {
 			Color[][] newTarget = Instush.scaled(target, source[0].length, source.length);
 			Instush.morph(source, newTarget, morphing);
-
 		} else {
 			Instush.morph(source, target, morphing);
+			
 		}
 		
 	}
