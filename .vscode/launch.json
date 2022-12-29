@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch stringToDouble",
+            "request": "launch",
+            "mainClass": "stringToDouble",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch d",
+            "request": "launch",
+            "mainClass": "d",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Recursion",
+            "request": "launch",
+            "mainClass": "Recursion",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
             "name": "Launch Editor4",
             "request": "launch",
             "mainClass": "Editor4",

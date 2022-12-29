@@ -33,3 +33,4 @@ public class Editor1 {
 		Instush.show(image);
 	}
 }
+

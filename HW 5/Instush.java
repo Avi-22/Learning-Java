@@ -6,7 +6,6 @@ import java.awt.Color;
 public class Instush {
 
 	public static void main(String[] args) {
-		
 
 	}
 
@@ -200,10 +199,20 @@ public class Instush {
 	 * @param n      - number of morphing steps
 	 */
 	public static void morph(Color[][] source, Color[][] target, int n) {
-		for (int i = 0; i <= n; i++) {
-			double alpha = (double)(n-i)/n;
-			show((blend(source, target, alpha)));
+		if (source.length != target.length || source[0].length != target[0].length) {
+			Color[][] newTarget = Instush.scaled(target, source[0].length, source.length);
+			for (int i = 0; i <= n; i++) {
+				double alpha = (double) (n - i) / n;
+				show((blend(source, newTarget, alpha)));
+			}
+		} else {
+			for (int i = 0; i <= n; i++) {
+				double alpha = (double) (n - i) / n;
+				show((blend(source, target, alpha)));
+			}
+
 		}
+
 	}
 
 	/**

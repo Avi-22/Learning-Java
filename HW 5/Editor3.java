@@ -1,5 +1,7 @@
 import java.awt.Color;
 
+import javax.swing.plaf.InsetsUIResource;
+
 /**
  * Demonstrates the morphing service of Instush.java.
  * The program recieves three command-line arguments: the name of a PPM file
@@ -13,18 +15,10 @@ import java.awt.Color;
  * to the dimensions of the source image.
  */
 public class Editor3 {
-
 	public static void main(String[] args) {
 		Color[][] source = Instush.read(args[0]);
 		Color[][] target = Instush.read(args[1]);
 		int morphing = Integer.parseInt(args[2]);
-		if (source.length != target.length || source[0].length != target[0].length) {
-			Color[][] newTarget = Instush.scaled(target, source[0].length, source.length);
-			Instush.morph(source, newTarget, morphing);
-		} else {
-			Instush.morph(source, target, morphing);
-			
-		}
-		
+		Instush.morph(source, target, morphing);
 	}
 }

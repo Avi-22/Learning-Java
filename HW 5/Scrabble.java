@@ -83,7 +83,7 @@ public class Scrabble {
 		int length = hand.length();
 
 		while (length > 0) {
-			System.out.println("Current Hand: "+MyString.spacedString(hand));
+			System.out.println("Current Hand: " + MyString.spacedString(hand));
 			System.out.println("Enter a word, or '.' to finish this hand:");
 			String input = StdIn.readString();
 			if (input.equals(".")) {
@@ -126,18 +126,28 @@ public class Scrabble {
 		init();
 		String word = "";
 		String input = "";
-		while (!input.equals("e")) {
+		boolean e = true;
+		while (e) {
 			System.out.println("Enter n to deal a new hand, r to replay the last hand, or e to end game:");
 			input = StdIn.readString();
-			if (input.equals("n")) {
-				word = MyString.randomStringOfLetters(HAND_SIZE);
-				playHand(word);
-			} else if (input.equals("r")) {
-				if (word.equals("")) {
-					System.out.println("You have not play yet. Please play a new hand first!");
-				} else {
+			switch (input) {
+				case "n":
+					word = MyString.randomStringOfLetters(HAND_SIZE);
 					playHand(word);
-				}
+					break;
+				case "r":
+					if (word.length() == 0) {
+						System.out.println("You have not play yet. Please play a new hand first!");
+					} else {
+						playHand(word);
+					}
+					break;
+				case "e":
+					e = false;
+					break;
+				default:
+					System.out.println("Invalid input");
+					break;
 			}
 		}
 	}
