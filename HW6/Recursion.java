@@ -3,7 +3,7 @@ public class Recursion {
     public static int steps = 0;
 
     public static void main(String[] args) {
-
+        mainQuestion8();
     }
 
     public static int gcd(int a, int b) {
@@ -94,7 +94,6 @@ public class Recursion {
         if (sortedArr[mid] == num) {
             return mid;
         }
-
         if (beginIndex >= endIndex) {
             return -1;
         }
@@ -157,6 +156,7 @@ public class Recursion {
         if (i == arr.length - 1) {
             return arr[i][j] + maxVal(arr, i, j + 1);
         }
+
         return arr[i][j] + Math.max(maxVal(arr, i + 1, j), maxVal(arr, i, j + 1));
     }
 
@@ -195,16 +195,11 @@ public class Recursion {
             return memo[i][j];
         }
         if (j == arr[0].length - 1) {
-            memo[i][j] = arr[i][j] + effMaxVal(arr, memo, i + 1, j);
-            return memo[i][j];
+            return memo[i][j] = arr[i][j] + effMaxVal(arr, memo, i + 1, j);
         }
         if (i == arr.length - 1) {
-            memo[i][j] = arr[i][j] + effMaxVal(arr, memo, i, j + 1);
-            return memo[i][j];
+            return memo[i][j] = arr[i][j] + effMaxVal(arr, memo, i, j + 1);
         }
-        if (memo[i][j + 1] == -1 || memo[i + 1][j] == -1) {
-            memo[i][j] = arr[i][j] + Math.max(effMaxVal(arr, memo, i, j + 1), effMaxVal(arr, memo, i + 1, j));
-        }
-        return memo[i][j];
+        return memo[i][j] = arr[i][j] + Math.max(effMaxVal(arr, memo, i, j + 1), effMaxVal(arr, memo, i + 1, j));
     }
 }

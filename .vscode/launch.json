@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch NewtonRapshon",
+            "request": "launch",
+            "mainClass": "NewtonRapshon",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lamp1",
+            "request": "launch",
+            "mainClass": "Lamp1",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
             "name": "Launch stringToDouble",
             "request": "launch",
             "mainClass": "stringToDouble",
