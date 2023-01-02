@@ -191,15 +191,13 @@ public class Recursion {
     // SIDE EFFECT: This function changes the contents of the given memo array.
     private static int effMaxVal(int[][] arr, int[][] memo, int i, int j) {
         steps++;
-        if (memo[i][j] != -1) {
+        if (memo[i][j] != -1) 
             return memo[i][j];
-        }
-        if (j == arr[0].length - 1) {
+        if (j == arr[0].length - 1)
             return memo[i][j] = arr[i][j] + effMaxVal(arr, memo, i + 1, j);
-        }
-        if (i == arr.length - 1) {
+        if (i == arr.length - 1) 
             return memo[i][j] = arr[i][j] + effMaxVal(arr, memo, i, j + 1);
-        }
+         
         return memo[i][j] = arr[i][j] + Math.max(effMaxVal(arr, memo, i, j + 1), effMaxVal(arr, memo, i + 1, j));
     }
 }

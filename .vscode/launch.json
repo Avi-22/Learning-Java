@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FracPrac",
+            "request": "launch",
+            "mainClass": "FracPrac",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExpressionTest",
+            "request": "launch",
+            "mainClass": "ExpressionTest",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
+            "name": "Launch FractionTest",
+            "request": "launch",
+            "mainClass": "FractionTest",
+            "projectName": "Learning-Java_b9d3058f"
+        },
+        {
+            "type": "java",
             "name": "Launch NewtonRapshon",
             "request": "launch",
             "mainClass": "NewtonRapshon",
